@@ -11,7 +11,16 @@ This pipeline  requires only a standard computer with enough RAM to support the 
 
 This package is supported for Linux operating systems only. It may be possible to compile on Mac OS systems, although this has not been tested.
 
+# Dependencies
+
+In addition to a C++ compiler (gcc), this pipeline requires the following software:
+* topHat (version 2.1.1 or more recent) : https://ccb.jhu.edu/software/tophat/index.shtml
+* blat (https://kentinformatics.com/#BLAT)
+* 
+
 # INSTALLATION:
+
+Installation typically takes only a few minutes.
 
 After cloning the repository from github, simply type:
 ```make all```
@@ -53,7 +62,7 @@ Starting material:
   - A fasta file containing all the spliced transcript sequences (+ some flanking sequence ideally, but this is not mandatory)
 	
  #Additional software requiered:
-	- tophat (https://ccb.jhu.edu/software/tophat/index.shtml)
+	- tophat2 (https://ccb.jhu.edu/software/tophat/index.shtml)
 	- blat (http://www.kentinformatics.com/) [Note that it should work also with blast, as long as blast8 output format is used]
 	
 
