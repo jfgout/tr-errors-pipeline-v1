@@ -1,6 +1,16 @@
 # tr-errors-pipeline-v1
 Pipeline for calling transcription errors from a rolling-circle (circ-seq) library
 
+# System requirements
+
+## Hardware requirements
+
+This pipeline  requires only a standard computer with enough RAM to support the in-memory operations.
+
+## OS requirements
+
+This package is supported for Linux operating systems only. It may be possible to compile on Mac OS systems, although this has not been tested.
+
 # INSTALLATION:
 
 After cloning the repository from github, simply type:
